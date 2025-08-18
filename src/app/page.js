@@ -6,7 +6,7 @@
 
 const Home = () => {
   return (
-    <div className="bg-red-600 w-full h-screen font-sans flex justify-center items-center gap-x-1">
+    <div className="w-full h-screen font-sans flex justify-center items-center gap-x-1">
       <div className="w-[450px] h-[504px] bg-white/60 rounded-3xl p-8 ring-1 ring-gray-900/10">
         <h3 className="text-indigo-600 font-semibold text-base/7">Hobby</h3>
         <p className="mt-4 text-5xl font-semibold text-gray-900 flex items-baseline gap-x-2">
@@ -33,8 +33,8 @@ const Home = () => {
                 >
                   <path
                     d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                    clip-rule="evenodd"
-                    fill-rule="evenodd"
+                    clipRule="evenodd"
+                    fillRule="evenodd"
                   ></path>
                 </svg>
                 {element}
