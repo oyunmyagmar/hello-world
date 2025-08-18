@@ -3,13 +3,14 @@
 // export default function Home() {
 //   return <div>hello</div>;
 // }
+
 const Home = () => {
   return (
-    <div className="w-100vw h-screen font-sans flex justify-center items-center gap-x-1">
+    <div className="bg-red-600 w-full h-screen font-sans flex justify-center items-center gap-x-1">
       <div className="w-[450px] h-[504px] bg-white/60 rounded-3xl p-8 ring-1 ring-gray-900/10">
         <h3 className="text-indigo-600 font-semibold text-base/7">Hobby</h3>
         <p className="mt-4 text-5xl font-semibold text-gray-900 flex items-baseline gap-x-2">
-          $29 <span className="text-base text-gray-500">/month</span>
+          $29<span className="text-base text-gray-500">/month</span>
         </p>
         <p className="mt-6 text-base/7 text-gray-600">
           The perfect plan if you're just getting started with our product.
@@ -57,7 +58,7 @@ const Home = () => {
           Enterprise
         </h3>
         <p className="mt-4 text-5xl font-semibold text-white flex items-baseline gap-x-2">
-          $99 <span className="text-base text-gray-400">/month</span>
+          $99<span className="text-base text-gray-400">/month</span>
         </p>
         <p className="mt-6 text-base/7 text-gray-300">
           Dedicated support and infrastructure for your company.
