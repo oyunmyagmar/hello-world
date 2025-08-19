@@ -3,17 +3,34 @@
 // export default function Home() {
 //   return <div>hello</div>;
 // }
-import { Box, Round } from "@/components";
+
+import { Card, Description } from "@/components";
 const Home = () => {
   return (
-    <div className="flex flex-col gap-2">
-      <Box></Box>
-      <Round></Round>
-      <Box></Box>
-      <Box></Box>
-      <Round></Round>
-      <Box></Box>
+    <div>
+      <div>
+        <Card image="nike1.jpeg"></Card>
+        <Card image="nike2.jpeg"></Card>
+        <Card image="nike3.jpeg"></Card>
+      </div>
+      <div>
+        <Description
+          text="Every utility class in Tailwind can be applied conditionally at different
+      breakpoints, which makes it a piece of cake to build complex responsive
+      interfaces without ever leaving your HTML."
+        ></Description>
+        <Description text="Then to add a utility but only have it take effect at a certain breakpoint, all you need to do is prefix the utility with the breakpoint name, followed by the : character:"></Description>
+      </div>
     </div>
+
+    // <div className="flex flex-col gap-2">
+    //   <Box></Box>
+    //   <Round></Round>
+    //   <Box></Box>
+    //   <Box></Box>
+    //   <Round></Round>
+    //   <Box></Box>
+    // </div>
 
     // <div className="w-full h-screen font-sans flex justify-center items-center gap-x-1">
     //   <div className="w-[450px] h-[504px] bg-white/60 rounded-3xl p-8 ring-1 ring-gray-900/10">
