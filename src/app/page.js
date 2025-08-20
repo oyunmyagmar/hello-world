@@ -23,15 +23,6 @@ const Home = () => {
       </div>
     </div>
 
-    // <div className="flex flex-col gap-2">
-    //   <Box></Box>
-    //   <Round></Round>
-    //   <Box></Box>
-    //   <Box></Box>
-    //   <Round></Round>
-    //   <Box></Box>
-    // </div>
-
     // <div className="w-full h-screen font-sans flex justify-center items-center gap-x-1">
     //   <div className="w-[450px] h-[504px] bg-white/60 rounded-3xl p-8 ring-1 ring-gray-900/10">
     //     <h3 className="text-indigo-600 font-semibold text-base/7">Hobby</h3>
