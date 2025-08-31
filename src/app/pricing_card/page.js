@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <div className="w-full h-screen font-sans flex justify-center items-center gap-x-1">
+    <div className="w-full h-screen bg-black font-sans flex justify-center items-center gap-x-1">
       <div className="w-[450px] h-[504px] bg-white/60 rounded-3xl p-8 ring-1 ring-gray-900/10">
         <h3 className="text-indigo-600 font-semibold text-base/7">Hobby</h3>
         <p className="mt-4 text-5xl font-semibold text-gray-900 flex items-baseline gap-x-2">
@@ -37,8 +37,8 @@ const Home = () => {
           })}
         </ul>
         <button
-          className="mt-8 px-3.5 py-2.5 rounded-md ring ring-indigo-200
-        text-center text-sm font-semibold text-indigo-600 w-full"
+          className="mt-8 w-full px-3.5 py-2.5 rounded-md ring ring-indigo-200
+        text-center text-sm font-semibold text-indigo-600"
         >
           Get started today
         </button>
@@ -87,8 +87,8 @@ const Home = () => {
           })}
         </ul>
         <button
-          className="mt-8 rounded-md bg-indigo-500 px-3.5 py-2.5 shadow-xs
-        text-white text-center text-sm font-semibold w-full"
+          className="mt-8 w-full rounded-md bg-indigo-500 px-3.5 py-2.5 shadow-xs
+        text-white text-center text-sm font-semibold"
         >
           Get started today
         </button>
