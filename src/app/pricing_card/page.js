@@ -1,7 +1,7 @@
 const Home = () => {
   return (
-    <div className="w-full h-screen bg-black font-sans flex justify-center items-center gap-x-1">
-      <div className="w-[450px] h-[504px] bg-white/60 rounded-3xl p-8 ring-1 ring-gray-900/10">
+    <div className="w-full h-screen font-sans flex justify-center items-center gap-x-1">
+      <div className="w-[450px] bg-white/60 rounded-3xl p-8 ring-1 ring-gray-900/10">
         <h3 className="text-indigo-600 font-semibold text-base/7">Hobby</h3>
         <p className="mt-4 text-5xl font-semibold text-gray-900 flex items-baseline gap-x-2">
           $29<span className="text-base text-gray-500">/month</span>
@@ -45,7 +45,7 @@ const Home = () => {
       </div>
 
       <div
-        className="w-[450px] h-[544px] bg-gray-900 rounded-3xl p-8
+        className="w-[450px] bg-gray-900 rounded-3xl p-8
       shadow-2xl ring-1 ring-gray-900/10"
       >
         <h3 className="text-indigo-400 font-semibold text-base/7">
